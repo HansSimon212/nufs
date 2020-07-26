@@ -1,6 +1,7 @@
 # NUFS: A simple filesystem #
 An implementation of a basic filesystem written using the
-<a href=http://libfuse.github.io/doxygen/ target="_blank">FUSE API</a>.
+<a href=http://libfuse.github.io/doxygen/ target="_blank">FUSE API</a>. The primary purpose of this repository
+is to display my best coding practices (commenting/style) and ability to write complex code.
 
 <hr>
 <h3>General:</h3>
@@ -41,4 +42,5 @@ An implementation of a basic filesystem written using the
  <li>Enter 'mount -a' into your terminal.</li>
 </ol>
 <br>
+
 Now you can use those standard Linux filesystem commands (mkdir/rename/chmod/etc.) listed at the bottom of the 'nufs.c' file in this repository.
