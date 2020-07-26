@@ -1,5 +1,6 @@
 # NUFS: A simple filesystem #
 
+## Technologies Used/Abstract Description: ##
 An implementation of a basic filesystem written using the
 <a href=http://libfuse.github.io/doxygen/ target="_blank">FUSE API</a>
  
