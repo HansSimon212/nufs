@@ -24,6 +24,10 @@ An implementation of a basic filesystem written using the
  </b>
 </ul>
 
+<div>
+</div>
+
+
 <br>
 <hr>
 <h3>Directions for launching filesystem:</h3>
@@ -32,8 +36,9 @@ An implementation of a basic filesystem written using the
  <li>Launch any version of Debian/Ubuntu (or any other local modern Linux).</li>
  <li>Install fuse and libfuse-dev packages.</li>
  <li>Make sure your working directory is a proper Linux filesystem, not a remote-mounted Windows or Mac directory.</li>
- <li></li>
- <li></li>
- <li></li>
- <li></li>
- </ol>
+ <li>Clone this GitHub repository (HansSimon212/nufs) to your preferred location.</li>
+ <li>In your terminal, navigate to the directory where you want the filesystem to be mounted.</li>
+ <li>Enter 'mount -t fusectl none .' into your terminal.</li>
+</ol>
+<br>
+Now you can use standard Linux filesystem commands (mkdir/
