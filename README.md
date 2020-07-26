@@ -2,9 +2,9 @@
 An implementation of a basic filesystem written using the
 <a href=http://libfuse.github.io/doxygen/ target="_blank">FUSE API</a>
  
-### Technologies Used/Abstract Description: ###
-#### Languages and technologies used: ####
+#### Languages/Technologies Used: ####
 - C (for all functional code)
+- FUSE: Filesystem in Userspace (API used to communicate with OS)
 - Make (used in Makefile)
 - Perl (test script provided in assignment statement)
 - Ubuntu 18.04 (for development/testing/compilation)
