@@ -38,7 +38,7 @@ An implementation of a basic filesystem written using the
  <li>Make sure your working directory is a proper Linux filesystem, not a remote-mounted Windows or Mac directory.</li>
  <li>Clone this GitHub repository (HansSimon212/nufs) to your preferred location.</li>
  <li>In your terminal, navigate to the directory where you want the filesystem to be mounted.</li>
- <li>Enter 'mount -t fusectl none .' into your terminal.</li>
+ <li>Enter 'mount -a' into your terminal.</li>
 </ol>
 <br>
 Now you can use those standard Linux filesystem commands (mkdir/rename/chmod/etc.) listed at the bottom of the 'nufs.c' file in this repository.
