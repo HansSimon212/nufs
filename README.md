@@ -41,4 +41,4 @@ An implementation of a basic filesystem written using the
  <li>Enter 'mount -t fusectl none .' into your terminal.</li>
 </ol>
 <br>
-Now you can use standard Linux filesystem commands (mkdir/
+Now you can use those standard Linux filesystem commands (mkdir/rename/chmod/etc.) listed at the bottom of the 'nufs.c' file in this repository.
