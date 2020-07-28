@@ -8,8 +8,7 @@ is to display my best coding practices (commenting/style) and ability to write c
 <hr>
 <ol>
  <li>Launch any version of Debian/Ubuntu (or any other local modern Linux).</li>
- <li>Install fuse and libfuse-dev packages.</li>
- <li>Make sure your working directory is a proper Linux filesystem, not a remote-mounted Windows or Mac directory.</li>
+ <li>Make sure your working directory is a proper Linux filesystem, not a remote-mounted Windows or Mac directory. WSL 2 (Windows Subsystem for Linux 2) works for this, while WSL 1 does not. <a href="https://www.youtube.com/watch?v=_fntjriRe48">If you are using Windows and a Linux machine is not available to you, follow this guide on how to install WSL 2.</a></li>
  <li>Clone this GitHub repository (HansSimon212/nufs) to your preferred location, (this is where the filesystem will be mounted).</li>
  <li>Make sure you have the following packages installed. Each can be installed with 'apt-get install packagename':
    <ul>
@@ -50,8 +49,4 @@ Now you can use those standard Linux filesystem commands (mkdir/rename/chmod/etc
  <li>This project was an assignment for CS 3650: Computer Systems.  I strongly discourage plagiarism of this code as the course staff runs an automatic checker to all Bottlenose code, where this code was submitted, (and for the obvious reason that plagiarizing code goes against the Academic Integrity codes of Northeastern University).</li>
  </b>
 </ul>
-
-
-<br>
-<hr>
 
