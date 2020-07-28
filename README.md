@@ -39,7 +39,15 @@ is to display my best coding practices (commenting/style) and ability to write c
  <li>Make sure your working directory is a proper Linux filesystem, not a remote-mounted Windows or Mac directory.</li>
  <li>Clone this GitHub repository (HansSimon212/nufs) to your preferred location.</li>
  <li>In your terminal, navigate to the directory where you want the filesystem to be mounted.</li>
- <li>Enter 'mount -a' into your terminal.</li>
+ <li>Make sure you have the following packages installed:
+   <ul>
+      <li>gcc (GNU C Compiler) (downloaded with 'apt-get install gcc')</li>
+      <li>pkg-config (downloaded with 'apt-get install pkg-config')</li>
+      <li>make (downloaded with 'apt-get install make')</li>
+   </ul>
+   </li>
+ <li>In your chosen directory, enter 'make clean' to prepare directory for mounting.</li>
+ <li>In the same directory, enter'make mount' to mount NUFS (file system).</li>
 </ol>
 <br>
 
