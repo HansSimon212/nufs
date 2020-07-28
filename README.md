@@ -46,7 +46,7 @@ Now you can use those standard Linux filesystem commands (mkdir/rename/chmod/etc
 <ul>
  <b>
  <li>All code besides skeletons for several functions in 'nufs.c' was written by myself and my partner.</li>
- <li>This project was an assignment for CS 3650: Computer Systems.  I strongly discourage plagiarism of this code as the course staff runs an automatic checker to all Bottlenose code, where this code was submitted, (and for the obvious reason that plagiarizing code goes against the Academic Integrity codes of Northeastern University).</li>
+ <li>This project was an assignment for CS 3650: Computer Systems.  I strongly discourage plagiarism of this code as the course staff runs an automatic checker that compares code to all Bottlenose code, where this code was submitted, (and for the obvious reason that plagiarizing code is unwise/unethical and goes against the Academic Integrity codes of Northeastern University).</li>
  </b>
 </ul>
 
