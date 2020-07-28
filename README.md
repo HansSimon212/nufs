@@ -37,17 +37,20 @@ is to display my best coding practices (commenting/style) and ability to write c
  <li>Launch any version of Debian/Ubuntu (or any other local modern Linux).</li>
  <li>Install fuse and libfuse-dev packages.</li>
  <li>Make sure your working directory is a proper Linux filesystem, not a remote-mounted Windows or Mac directory.</li>
- <li>Clone this GitHub repository (HansSimon212/nufs) to your preferred location.</li>
- <li>In your terminal, navigate to the directory where you want the filesystem to be mounted.</li>
- <li>Make sure you have the following packages installed:
+ <li>Clone this GitHub repository (HansSimon212/nufs) to your preferred location, (this is where the filesystem will be mounted).</li>
+ <li>Make sure you have the following packages installed. Each can be installed with 'apt-get install packagename':
    <ul>
-      <li>gcc (GNU C Compiler) (downloaded with 'apt-get install gcc')</li>
-      <li>pkg-config (downloaded with 'apt-get install pkg-config')</li>
-      <li>make (downloaded with 'apt-get install make')</li>
+      <li>gcc</li>
+      <li>pkg-config</li>
+      <li>make</li>
+      <li>libbsd-dev</li>
+      <li>fuse</li>
+      <li>libfuse-dev</li>
    </ul>
    </li>
- <li>In your chosen directory, enter 'make clean' to prepare directory for mounting.</li>
- <li>In the same directory, enter'make mount' to mount NUFS (file system).</li>
+ <li>In the directory where you cloned the project, enter 'make clean' to prepare for mounting.</li>
+ <li>In the same directory, enter 'make mount' to mount NUFS (file system).</li>
+ <li>Navigate to the 'mnt' folder. This is the root folder of the filesystem.</li>
 </ol>
 <br>
 
